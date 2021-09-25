@@ -321,11 +321,11 @@ ano_nasc = int(input())
 idade = ano_atual - ano_nasc
 
 if idade >= 18:
-print('Entrada permitida.')
+    print('Entrada permitida.')
 elif idade > 14:
-print('Entrada permitida desde que acompanhado(a).')
+    print('Entrada permitida desde que acompanhado(a).')
 else:
-print('Entrada proibida.')
+    print('Entrada proibida.')
 ```
 
 Maria, Júlia e Laura utilizaram o programa acima e foram notificadas com as seguintes mensagens:  
@@ -350,11 +350,12 @@ M = 5
 C = 10
 C = C * (1 + T)
 
-while T < M:
-T = T + 1
-C = C * (1 + T)
+while (T < M):
+    T += 1
+    C = C * (1 + T)
 
 print(C)
+
 ```
 
 ## 18 Sabendo que randint(x, y)
@@ -368,9 +369,9 @@ n = 7
 a = 0
 
 for i in range(n):
-num_aleat = randint(0, 50)
-if num_aleat > a and num_aleat <= 40:
-a = num_aleat
+    num_aleat = randint(0, 50)
+    if num_aleat > a and num_aleat <= 40:
+        a = num_aleat
 
 print(a)
 ```
