@@ -391,9 +391,9 @@ p1 = input('Você tem em mãos o documento de identidade, sim ou não?')
 p2 = input('Você tem em mãos um comprovante de residência, sim ou não? ')
 
 if p1 == 'não' or p2 == 'não':
-print('Sinto muito, você não tem os documentos necessários para a abertura de conta corrente.')
+    print('Sinto muito, você não tem os documentos necessários para a abertura de conta corrente.')
 else:
-print('Certo. Vamos prosseguir com a abertura da sua conta corrente.')
+    print('Certo. Vamos prosseguir com a abertura da sua conta corrente.')
 ```
 
 Daniel, Moisés e Érica se dirigiram à agência para tentar abrir uma conta corrente. Sabe-se que:  
@@ -416,7 +416,7 @@ lista2 = [2, 3, 4, 3, 2, 1]
 lista3 = [0, 0, 0, 0, 0, 0]
 
 for i in range(6):  
-lista3[i] = lista1[i] + lista2[i]  
+    lista3[i] = lista1[i] + lista2[i]  
 
 print(lista3[2])
 ```
